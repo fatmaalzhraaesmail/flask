@@ -26,7 +26,7 @@ def index():
 FOLDER = 'uploadedfiles'
 
 # Model saved with Keras model.save()
-MODEL_PATH = 'mobileNet_5classes9829(3)/mobileNet_5classes9829(3)'
+MODEL_PATH = './mobileNet_5classes9829(3)/mobileNet_5classes9829(3)'
 # MODEL_PATH = 'mobileNet_5classes91(2)'
 
 # Load your trained model
