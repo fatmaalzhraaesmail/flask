@@ -81,9 +81,9 @@ classes = ['Acinetobacter.baumanii',
            'Candida.albicans',
            'Escherichia.coli',
            'Staphylococcus.aureus']
-@app.route("/")
-def home():
-	return "HELLO from vercel use flask"
+# @app.route("/")
+# def home():
+# 	return "HELLO from vercel use flask"
 @app.route('/uploads', methods=['POST'])
 def upload_file():
     import numpy as np
