@@ -10,7 +10,7 @@ nvidia-pyindex==1.0.9
 keras==2.12.0
 Keras-Applications==1.0.8
 Keras-Preprocessing==1.1.2
-tensorflow==2.12.0
+tensorflow==2.10.0
 tensorflow-estimator==2.12.0
 tensorflow-io-gcs-filesystem==0.31.0
 gevent==22.10.2
