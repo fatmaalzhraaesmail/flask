@@ -63,9 +63,9 @@ def prediction(img_path, model):
 
     sharp_image =sharp_image.reshape(1 ,img_width ,img_height ,3)
     sharp_image /= 255.  # Normalize to [0,1] for plt.imshow application
-    # plt.imshow(org_img)
-    # plt.axis('off')
-    # plt.show()
+    plt.imshow(org_img)
+    plt.axis('off')
+    plt.show()
     prediction = model.predict(sharp_image)
 
 
